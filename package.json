@@ -11,9 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "bulmaswatch": "^0.7.5",
     "nuxt": "^2.0.0",
-    "nuxt-buefy": "^0.3.2",
-    "@nuxtjs/axios": "^5.3.6"
+    "nuxt-buefy": "^0.3.2"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
