@@ -6,7 +6,6 @@
         My name is Nate Palmer.
         <br />I'm currently a Lead Dev at Cox Automotive
         <br />I use .net and .netcore to create web apps that provide measurable value to customers.
-        <br />I
       </h2>
     </div>
   </section>

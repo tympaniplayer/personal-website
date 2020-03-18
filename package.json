@@ -6,13 +6,17 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
+    "dev-debug": "node --inspect node_modules/.bin/nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "@toycode/markdown-it-class": "^1.2.2",
     "bulmaswatch": "^0.7.5",
+    "frontmatter-markdown-loader": "^3.2.1",
+    "highlight.js": "^9.18.1",
     "nuxt": "^2.0.0",
     "nuxt-buefy": "^0.3.2"
   },

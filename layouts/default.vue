@@ -41,13 +41,18 @@ export default {
       items: [
         {
           title: "Home",
-          icon: "home",
+          icon: "account",
           to: { name: "index" }
         },
         {
           title: "Resume",
-          icon: "lightbulb",
-          to: { name: "inspire" }
+          icon: "briefcase",
+          to: { name: "resume" }
+        },
+        {
+          title: "Blog",
+          icon: "file",
+          to: { name: "posts" }
         }
       ]
     };
