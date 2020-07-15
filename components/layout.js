@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Navigation from "./navigation";
 
 const name = "Nate Palmer";
 export const siteTitle = "Next.js Sample Website";
@@ -24,6 +25,8 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+
+      <Navigation />
       <header className={styles.header}>
         {home ? (
           <>
