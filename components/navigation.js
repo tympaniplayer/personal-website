@@ -1,4 +1,5 @@
 import { styles } from "./navigation.module.css";
+import Link from "next/link";
 
 export default function Navigation() {
   return (
@@ -20,24 +21,22 @@ export default function Navigation() {
       </div>
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a
-            href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4"
-          >
-            Home
-          </a>
-          <a
-            href="#responsive-header"
-            class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4"
-          >
-            Resume
-          </a>
-          <a
+          <Link href="/">
+            <a class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4">
+              Home
+            </a>
+          </Link>
+          <Link href="/posts">
+            <a class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white mr-4">
+              Blog
+            </a>
+          </Link>
+          {/* <a
             href="#responsive-header"
             class="block mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white"
           >
             Blog
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
