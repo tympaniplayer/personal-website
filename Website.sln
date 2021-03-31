@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "src\Website\Website.csproj", "{D2011E72-80DA-467C-B35B-9C638A15A958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalWebsite.WebApi", "PersonalWebsite.WebApi\PersonalWebsite.WebApi.csproj", "{AADA4808-8368-408A-BBE2-AAAB38BA738B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2011E72-80DA-467C-B35B-9C638A15A958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2011E72-80DA-467C-B35B-9C638A15A958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2011E72-80DA-467C-B35B-9C638A15A958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2011E72-80DA-467C-B35B-9C638A15A958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADA4808-8368-408A-BBE2-AAAB38BA738B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADA4808-8368-408A-BBE2-AAAB38BA738B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADA4808-8368-408A-BBE2-AAAB38BA738B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADA4808-8368-408A-BBE2-AAAB38BA738B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
